@@ -26,6 +26,7 @@ import {
   eventMatching,
   BJDojo,
   reduxApp,
+  wb,
 } from "../assets";
 
 export const navLinks = [
@@ -228,7 +229,7 @@ const projects = [
       },
       
     ],
-    image: templateWebPic,
+    image: wb,
     source_code_link: "https://github.com/ryoosukesaito/Backend-whistleblowing",
     deployment_link:"https://github.com/ryoosukesaito/Backend-whistleblowing",
   },

@@ -40,6 +40,7 @@ import BJDojo from "./BJDojo.png"
 import reduxApp from "./reduxApp.png"
 
 import linkedin from "./linkedin.png"
+import wb from "./wb.png"
 
 export {
   myicon,
@@ -82,4 +83,5 @@ export {
   BJDojo,
   reduxApp,
   linkedin,
+  wb,
 };
