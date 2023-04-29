@@ -230,7 +230,7 @@ const projects = [
       
     ],
     image: wb,
-    source_code_link: "https://github.com/ryoosukesaito/Backend-whistleblowing",
+    source_code_link: "https://github.com/ryoosukesaito/Frontend-whistleblowing",
     deployment_link:"https://github.com/ryoosukesaito/Backend-whistleblowing",
   },
   {
