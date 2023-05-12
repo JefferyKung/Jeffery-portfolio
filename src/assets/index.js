@@ -38,6 +38,7 @@ import gymProject from "./gymProject.png"
 import eventMatching from "./eventMatching.png"
 import BJDojo from "./BJDojo.png"
 import reduxApp from "./reduxApp.png"
+import tshirtAI from "./tshirtDesign.png"
 
 import linkedin from "./linkedin.png"
 import wb from "./wb.png"
@@ -75,6 +76,7 @@ export {
   beingDigital,
   Homey,
   PoPo,
+  tshirtAI,
 
   webpage,
   templateWebPic,

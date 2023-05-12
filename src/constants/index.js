@@ -27,6 +27,7 @@ import {
   BJDojo,
   reduxApp,
   wb,
+  tshirtAI,
 } from "../assets";
 
 export const navLinks = [
@@ -213,7 +214,7 @@ const projects = [
   {
     name: "Whistleblowing Software",
     description:
-      "Web-based case management system that allows users to Anonymous reporting. I am in charge of back-end development.",
+      "Web-based case management system that allows users to Anonymous reporting. This is a group project and I'm in charge of back-end development.",
     tags: [
       {
         name: "Frontend: React",
@@ -230,8 +231,8 @@ const projects = [
       
     ],
     image: wb,
-    source_code_link: "https://github.com/ryoosukesaito/Frontend-whistleblowing",
-    deployment_link:"https://github.com/ryoosukesaito/Backend-whistleblowing",
+    source_code_link: "https://github.com/ryoosukesaito/Backend-whistleblowing",
+    deployment_link:"https://frontend-whistleblowing.vercel.app/",
   },
   {
     name: "Your personal gym instructor",
@@ -320,6 +321,27 @@ const projects = [
     image: reduxApp,
     source_code_link: "https://github.com/JefferyKung/React-redux-structure-shopping-cart",
     deployment_link:"https://react-final-gamma.vercel.app/",
+  }, {
+    name: "tshirt-design-AI",
+    description:
+      "This is a fullstack application that you can try to design your own t-shirt by changing color, upload your own image, and even asking A.I. to do so!",
+    tags: [
+      {
+        name: "Frontend : react.js (tailwind)",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "backend: Express.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "openAI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tshirtAI,
+    source_code_link: "https://github.com/JefferyKung/tshirt-design-AI-frontend",
+    deployment_link:"https://tshirt-design-ai-frontend.vercel.app/",
   },
 ];
 
