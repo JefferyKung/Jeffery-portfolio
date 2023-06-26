@@ -18,7 +18,7 @@ const StarWrapper = (Component, idName) =>
         </span>
 
         {/* 讓首頁的珠珠按了可以傳送到id的頁面 <- 這是在講span的id功能
-        還有排版從左邊一道中間 中間className那一串 <- 這是其中一個原因為什麼要wrap 在HOC裡面 */}
+        還有排版從左邊移到中間 中間className那一串 <- 這是其中一個原因為什麼要wrap 在HOC裡面 */}
 
         <Component />
       </motion.section>

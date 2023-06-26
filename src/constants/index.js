@@ -211,29 +211,7 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "Whistleblowing Software",
-    description:
-      "Web-based case management system that allows users to Anonymous reporting. This is a group project and I'm in charge of back-end development.",
-    tags: [
-      {
-        name: "Frontend: React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "backend: Express+ Mongoose",
-        color: "green-text-gradient",
-      },
-      {
-        name: "styling: Tailwind CSS",
-        color: "pink-text-gradient",
-      },
-      
-    ],
-    image: wb,
-    source_code_link: "https://github.com/ryoosukesaito/Backend-whistleblowing",
-    deployment_link:"https://frontend-whistleblowing.vercel.app/",
-  },
+ 
   {
     name: "Your personal gym instructor",
     description:
@@ -277,6 +255,29 @@ const projects = [
     image: eventMatching,
     source_code_link: "https://github.com/JefferyKung/Event-matching-app",
     deployment_link:"https://node-js-final-project.vercel.app/",
+  },
+  {
+    name: "Whistleblowing Software",
+    description:
+      "Web-based case management system that allows users to Anonymous reporting. This is a group project and I'm in charge of back-end development.",
+    tags: [
+      {
+        name: "Frontend: React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "backend: Express+ Mongoose",
+        color: "green-text-gradient",
+      },
+      {
+        name: "styling: Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+      
+    ],
+    image: wb,
+    source_code_link: "https://github.com/ryoosukesaito/Backend-whistleblowing",
+    deployment_link:"https://frontend-whistleblowing.vercel.app/",
   },
   {
     name: "Blackjack-DOJO",
