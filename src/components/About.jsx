@@ -1,7 +1,8 @@
 import React from "react";
 import Tilt from "react-tilt";
+// tilt是翹邊邊
 import { motion } from "framer-motion";
-
+// 有動畫的區段就可用motion.div / motion.p
 import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
@@ -10,10 +11,12 @@ import { fadeIn, textVariant } from "../utils/motion";
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
-      variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+      variants={fadeIn("  right", "spring", index * 0.5, 0.75)}
       className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+      // 漸層 green-pink-gradient
     >
       <div
+      // tilt卡片
         options={{
           max: 45,
           scale: 1,
@@ -45,6 +48,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
+        // fadeIn(direction,type,delay,duration)
         className='mt-4 text-white text-[17px] max-w-5xl leading-[30px]'
       >
         I am a proficient software developer with JavaScript skills and   

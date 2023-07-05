@@ -2,6 +2,7 @@ import { Html, useProgress } from "@react-three/drei";
 
 const CanvasLoader = () => {
   const { progress } = useProgress();
+  // 這個進度數字來自於react-three/drei library
   return (
     <Html
       as='div'
@@ -23,6 +24,7 @@ const CanvasLoader = () => {
         }}
       >
         {progress.toFixed(2)}%
+        {/* 小數點後2位 */}
       </p>
     </Html>
   );

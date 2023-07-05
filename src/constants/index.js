@@ -244,7 +244,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "backend: Express+ Mongoose",
+        name: "backend: MongoDB SDK",
         color: "green-text-gradient",
       },
       {
