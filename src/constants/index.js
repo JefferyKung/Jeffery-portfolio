@@ -170,7 +170,7 @@ const experiences = [
     ],
   },
   {
-    title: "Police office",
+    title: "Police officer",
     company_name: "Government of Taiwan",
     icon: PoPo,
     iconBg: "#FFFFFF",
