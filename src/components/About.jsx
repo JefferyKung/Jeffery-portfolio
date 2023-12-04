@@ -49,11 +49,12 @@ const About = () => {
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         // fadeIn(direction,type,delay,duration)
-        className='mt-4 text-white text-[17px] max-w-5xl leading-[30px]'
+        className='mt-4 text-white text-[17px] max-w-5xl leading-[30px] whitespace-pre-lines'
       >
         I am a proficient software developer with JavaScript skills and   
         knowledge of frameworks such as React and Node.js. 
-        I also have experience as an associate project manager in a digital marketing firm. 
+        I'm using Next.js with Typescript at my workplace. Every day is a challenge but rewarding! Besides, 
+        I have experience as an associate project manager in a digital marketing firm. 
         I worked closely with clients to plan and execute effective and creative social media campaigns and posts. 
         That's why I understand concepts like SEO and the needs of our target audience. 
         I can use code to create full-stack websites that meet marketing objectives. 

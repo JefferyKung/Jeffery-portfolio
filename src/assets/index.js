@@ -42,6 +42,7 @@ import tshirtAI from "./tshirtDesign.png"
 
 import linkedin from "./linkedin.png"
 import wb from "./wb.png"
+import Ringus from "./company/RINGUS.jfif"
 
 export {
   myicon,
@@ -86,4 +87,5 @@ export {
   reduxApp,
   linkedin,
   wb,
+  Ringus
 };

@@ -21,13 +21,13 @@ import {
   beingDigital,
   Homey,
   PoPo,
-  templateWebPic,
   gymProject,
   eventMatching,
   BJDojo,
   reduxApp,
   wb,
   tshirtAI,
+  Ringus
 } from "../assets";
 
 export const navLinks = [
@@ -129,11 +129,25 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Frontend Developer",
+    company_name: "Ringus Solution Enterprise Limited",
+    icon: Ringus,
+    iconBg: "#FFFFFF",
+    date: "Aug 2023 - Present",
+    points: [
+      "Working with senior front-end developers, back-end team and UI/UX designer.",
+      "We use Nextjs 13.5 with TypeScript.",
+      "We are working on building a huge corporate official website with checkout and membership system.",
+      "Our client is Hong Kong top business brand.",
+      
+    ],
+  },
+  {
     title: "Javascript Student Developer",
     company_name: "CornerStone International Community College",
     icon: CICCC,
     iconBg: "#293a8a",
-    date: "April 2022 - present",
+    date: "April 2022 - May 2023",
     points: [
       "1+ year Intense bootcamp with 9 terms. Making 11 different scale of projects. ",
       "Developing and maintaining web applications using React.js, Express.js, MYSQL, MongoDB. Using Java in one term.",
