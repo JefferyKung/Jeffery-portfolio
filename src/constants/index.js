@@ -138,7 +138,7 @@ const experiences = [
       "Working with senior front-end developers, back-end team and UI/UX designer.",
       "We use Nextjs 13.5 with TypeScript.",
       "We are working on building a huge corporate official website with checkout and membership system.",
-      "Our client is Hong Kong top business brand.",
+      "Our client is Hong Kong top tier business brand.",
       
     ],
   },
