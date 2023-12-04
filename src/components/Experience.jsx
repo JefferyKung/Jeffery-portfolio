@@ -40,6 +40,10 @@ const ExperienceCard = ({ experience }) => {
         >
           {experience.company_name}
         </p>
+        {experience.location &&<span  className='text-secondary text-[16px] font-normal'
+          style={{ margin: 0 }}
+        >
+          {experience.location}</span>}
       </div>
 
       <ul className='mt-5 list-disc ml-5 space-y-2'>

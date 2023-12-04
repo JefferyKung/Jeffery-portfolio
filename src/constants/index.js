@@ -134,11 +134,15 @@ const experiences = [
     icon: Ringus,
     iconBg: "#FFFFFF",
     date: "Aug 2023 - Present",
+    location:"(work remotely with Hong Kong headquarter)",
     points: [
+      
+      
       "Working with senior front-end developers, back-end team and UI/UX designer.",
       "We use Nextjs 13.5 with TypeScript.",
       "We are working on building a huge corporate official website with checkout and membership system.",
       "Our client is Hong Kong top tier business brand.",
+      
       
     ],
   },
@@ -148,6 +152,7 @@ const experiences = [
     icon: CICCC,
     iconBg: "#293a8a",
     date: "April 2022 - May 2023",
+    location:"Vancouver,Canada",
     points: [
       "1+ year Intense bootcamp with 9 terms. Making 11 different scale of projects. ",
       "Developing and maintaining web applications using React.js, Express.js, MYSQL, MongoDB. Using Java in one term.",
@@ -162,6 +167,7 @@ const experiences = [
     icon: beingDigital,
     iconBg: "#FFFFFF",
     date: "Oct 2020 - May 2021",
+    location:"Taipei,Taiwan",
     points: [
       "Being a project leader for top clients in the whisky industry.",
       "Responsible for running social platforms (Facebook/Instagram/Line), strategy planning, campaign planning, target audience analyzing, contributing to client proposals and quotes, streamlining communication between internal designer team, and tone & manner keeping.",
@@ -172,7 +178,7 @@ const experiences = [
   },
   {
     title: "Brand supervisor",
-    company_name: "Homey hostel",
+    company_name: "Homey hostel (Taipei,Taiwan)",
     icon: Homey,
     iconBg: "#FFFFFF",
     date: "Aug 2018 - Apr 2020",
