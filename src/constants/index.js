@@ -279,7 +279,7 @@ const projects = [
   {
     name: "Whistleblowing Software",
     description:
-      "Web-based case management system that allows users to Anonymous reporting. This is a group project and I'm in charge of back-end development.",
+      "Web-based case management system that allows users to Anonymous reporting. This is a group project and I'm in charge of back-end development. (The server is cold-start needed.) ",
     tags: [
       {
         name: "Frontend: React",
@@ -345,7 +345,7 @@ const projects = [
   }, {
     name: "tshirt-design-AI",
     description:
-      "This is a fullstack application that you can try to design your own t-shirt by changing color, upload your own image, and even asking A.I. to do so!",
+      "This is a fullstack application that you can try to design your own t-shirt by changing color, upload your own image, and even asking A.I. to do so! (The server is cold-start needed. The AI Api is not free to request, so it's probably not gonna work if it's out of charging amount.)",
     tags: [
       {
         name: "Frontend : react.js (tailwind)",
