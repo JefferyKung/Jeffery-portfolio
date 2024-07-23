@@ -43,6 +43,7 @@ import tshirtAI from "./tshirtDesign.png"
 import linkedin from "./linkedin.png"
 import wb from "./wb.png"
 import Ringus from "./company/RINGUS.jfif"
+import ikea from "./Ikea_logo.png"
 
 export {
   myicon,
@@ -87,5 +88,6 @@ export {
   reduxApp,
   linkedin,
   wb,
-  Ringus
+  Ringus,
+  ikea
 };

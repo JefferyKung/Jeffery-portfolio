@@ -27,7 +27,8 @@ import {
   reduxApp,
   wb,
   tshirtAI,
-  Ringus
+  Ringus,
+  ikea
 } from "../assets";
 
 export const navLinks = [
@@ -129,11 +130,31 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Shopping Experience Manager",
+    company_name: "Ikea",
+    icon: ikea,
+    iconBg: "#FFFFFF",
+    date: "Mar 2024 - Present",
+    location:"Taoyuan,Taiwan",
+    points: [
+      
+      "To contribute to an inspiring and joyful shopping experience for all visitors and customers. This includes, in particular:", 
+"1. Understanding and translating customers' emotional needs into implemented commercial solutions. ",
+"2. Securing the foundation for an inspiring, joyful, welcoming, and family-friendly atmosphere. ",
+"3. Using customer insights to improve customer satisfaction.",
+"4. Securing a fast, easy, and customer-friendly checkout.",
+"5. Securing a cost-effective payment process.",
+      
+      
+      
+    ],
+  },
+  ,{
     title: "Frontend Developer",
     company_name: "Ringus Solution Enterprise Limited",
     icon: Ringus,
     iconBg: "#FFFFFF",
-    date: "Aug 2023 - Present",
+    date: "Aug 2023 - Jan 2024",
     location:"(work remotely with Hong Kong headquarter)",
     points: [
       
