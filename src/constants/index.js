@@ -28,7 +28,8 @@ import {
   wb,
   tshirtAI,
   Ringus,
-  ikea
+  ikea,
+  senryo
 } from "../assets";
 
 export const navLinks = [
@@ -206,18 +207,18 @@ const experiences = [
       "Leading a 5 people group at the marketing department and 7 people team at the front desk department.",
     ],
   },
-  {
-    title: "Police officer",
-    company_name: "Government of Taiwan",
-    icon: PoPo,
-    iconBg: "#FFFFFF",
-    date: "Jan 2017 - Apr 2018 ",
-    points: [
-      "Passed 2016 National Grade 4 Special examination for police officers.",
-      "I've been: Special Police First Headquarters, The Sixth Precinct of Tainan City Police Department, and SongShan Precinct of Taipei City Police Department.",
-      "Built a decent skill of how to communicate with people effectively.",
-    ],
-  },
+  // {
+  //   title: "Police officer",
+  //   company_name: "Government of Taiwan",
+  //   icon: PoPo,
+  //   iconBg: "#FFFFFF",
+  //   date: "Jan 2017 - Apr 2018 ",
+  //   points: [
+  //     "Passed 2016 National Grade 4 Special examination for police officers.",
+  //     "I've been: Special Police First Headquarters, The Sixth Precinct of Tainan City Police Department, and SongShan Precinct of Taipei City Police Department.",
+  //     "Built a decent skill of how to communicate with people effectively.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -249,6 +250,28 @@ const testimonials = [
 
 const projects = [
  
+  {
+    name: "Senryo Sushi",
+    description:
+      "I worked on this project when I worked for Ringus. I'm responsible for making ui based on designer's Figma prototype, making functions, and integrating APIs from backend team. (store location, faqs, menu, contact forms,about us, ingredients, and news pages.) ",
+    tags: [
+      {
+        name: "NextJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TS&Redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: senryo,
+   
+    deployment_link:"https://order.sen-ryo.com.hk/en",
+  },
   {
     name: "Your personal gym instructor",
     description:
@@ -294,9 +317,9 @@ const projects = [
     deployment_link:"https://node-js-final-project.vercel.app/",
   },
   {
-    name: "Whistleblowing Software",
+    name: "Whistleblowing Software (Cold-start 15 mins)",
     description:
-      "Web-based case management system that allows users to Anonymous reporting. This is a group project and I'm in charge of back-end development. (The server is cold-start needed.) ",
+      "Web-based case management system that allows users to Anonymous reporting. This is a group project and I'm in charge of back-end development.",
     tags: [
       {
         name: "Frontend: React",

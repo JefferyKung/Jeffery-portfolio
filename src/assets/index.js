@@ -39,11 +39,13 @@ import eventMatching from "./eventMatching.png"
 import BJDojo from "./BJDojo.png"
 import reduxApp from "./reduxApp.png"
 import tshirtAI from "./tshirtDesign.png"
+import senryo from "./senryo2.png"
 
 import linkedin from "./linkedin.png"
 import wb from "./wb.png"
 import Ringus from "./company/RINGUS.jfif"
 import ikea from "./Ikea_logo.png"
+
 
 export {
   myicon,
@@ -89,5 +91,7 @@ export {
   linkedin,
   wb,
   Ringus,
-  ikea
+  ikea,
+
+  senryo
 };
