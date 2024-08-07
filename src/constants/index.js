@@ -138,12 +138,17 @@ const experiences = [
     date: "Mar 2024 - Present",
     location:"Taoyuan,Taiwan",
     points: [
-      "To contribute to an inspiring and joyful shopping experience for all visitors and customers. This includes, in particular:", 
-      "1. Understanding and translating customers' emotional needs into implemented commercial solutions. ",
-      "2. Securing the foundation for an inspiring, joyful, welcoming, and family-friendly atmosphere. ",
-      "3. Using customer insights to improve customer satisfaction.",
-      "4. Securing a fast, easy, and customer-friendly checkout.",
-      "5. Securing a cost-effective payment process.",
+      "To contribute to an inspiring and joyful shopping experience for all visitors and customers.",
+"I oversaw a department with 17 team members, including coworkers, for the greeters counter at the entrance, the kid-playing solution called Smaland, and all shopping tools. I developed and motivated each individual based on their situation.",
+
+"My core task is understanding and translating customers' emotional needs into implemented commercial solutions and using customer insights to improve customer satisfaction; we passed Ikea's internal biannual review, getting 85% out of 100%, a huge success.",
+
+"We are dedicated to securing the foundation for an inspiring, joyful, welcoming, and family-friendly atmosphere. Our commitment to this atmosphere ensures that every visitor feels valued and included. ",
+
+"Secured all physical and digital shopping tools and planned the strategic use of which shopping tool for what kind of target customer group and where to change the smaller ones to bigger ones for the enormous shopping amount. Implemented new yellow basket trolleys in May and improved the tool usage rate on the 5th floor from 35% to 60%.",
+
+"Be a duty manager of the whole Customer Relation Department and Store manager duty.", 
+      
     ],
   },
   {
