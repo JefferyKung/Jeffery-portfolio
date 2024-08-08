@@ -297,7 +297,7 @@ const projects = [
     ],
     image: gymProject,
     source_code_link: "https://github.com/JefferyKung/Your-personal-gym-instructor",
-    deployment_link:"https://your-personal-gym-instructor.vercel.app/",
+    deployment_link:"https://www.jefferykung.online/",
   },
   {
     name: "Event matching app",
